@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.nav-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 0 10px;
+    border-radius: 7px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.start-bootstrap {
+    font-size: 20px;
+    padding-right: 50px;
+    color: #181819
+}
+
+.cart-section :hover {
+    background-color: black;
+    color: white;
+}
+
+.zero {
+    text-align: center;
+    width: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding-bottom: 2px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #181819;
+}
+
+.section-first {
+    background-color: rgb(33, 37, 41);
+    height: 200px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.shop {
+    color: rgb(116, 140, 148);
+    font-size: large;
+}
+
+.shop-text {
+    font-size: 40px;
+
+}
+
+.card {
+    height: 350px;
+    border: 2px solid #DEE1E6;
+    border-radius: 10px;
+    width: 240px;
+}
+
+.button {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #FFFFFF;
+}
+
+.resolution {
+    font-size: 30px;
+    height: 150px;
+    background-color: #DEE1E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sale-text {
+    text-align: center;
+    width: 26px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.card-details {
+    text-align: center;
+}
+
+.price {
+    padding: 40px 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding: 80px 170px;
+}
+
+.footer-main {
+    background-color: #212529;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
